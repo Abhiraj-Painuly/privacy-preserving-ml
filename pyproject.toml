@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "privacy-preserving-ml"
+version = "0.1.0"
+description = "Unified Privacy-Preserving Learning via Differential Privacy, Latent Anonymization, and Ensemble Aggregation."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Abhiraj Painuly", email = "" }
+]
+license = { text = "MIT" }
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[tool.setuptools.package-dir]
+"" = "."

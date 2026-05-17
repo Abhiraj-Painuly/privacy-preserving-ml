@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Environments
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Trained model checkpoints
+*.pt
+*.pth
+
+# Data cache (large binary files — download on first run)
+data_cache/
+
+# Personal / local-only files
+docs/
+paper_text.txt
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
